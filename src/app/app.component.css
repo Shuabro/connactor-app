@@ -1,0 +1,33 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.container-one {
+    max-width: 1200px;
+    margin: 10px auto;
+    overflow: auto;
+    min-height: 100px;
+    padding: 30px;
+    position: relative;
+  }
+
+  .container-two {
+    max-width: 1200px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 100px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    position: relative;
+    box-shadow: 12px 12px 12px 1px rgb(164,172,188);
+  }
+
+  .container1:hover, .container-two:hover
+  {
+    box-shadow: 14px 14px 8px 1px rgb(164,172,188);
+    
+  }
+
+  

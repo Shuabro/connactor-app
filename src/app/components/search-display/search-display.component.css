@@ -1,0 +1,17 @@
+.display-container {
+    max-width: 600px;
+    overflow: auto;
+    min-height: 400px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    box-shadow: 12px 12px 12px 1px rgb(164,172,188);
+    
+
+  }
+
+  .display-container:hover{
+    box-shadow: 14px 14px 8px 1px rgb(164,172,188);
+
+  }
